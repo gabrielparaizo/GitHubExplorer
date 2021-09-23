@@ -12,6 +12,10 @@
 ## **Tabela de conteúdo**
 * **[Sobre](#sobre)**
 * **[Tecnologias](#tecnologias)**
+* **[Como Utilizar](#como-utilizar)**
+  * **[Clonar o repositório](#clonar-o-repositório)**
+  * **[Rodar o projeto](#rodar-o-projeto)**
+<!-- * **[Layout](#layout)** -->
 * **[Autor](#autor)**
 
 ## **Sobre**
@@ -25,6 +29,43 @@ GitHub Explorer é o primeiro projeto criado no Bootcamp Ignite da [Rocketseat](
 * **Yarn**
 * **SASS**
 
+## **Como Utilizar**
+
+* ### **Clonar o repositório**
+  
+  Você pode clonar esse repositório com os seguintes comando:
+ 
+  Via HTTPS
+  ```bash
+  https://github.com/gabrielloppes/01-github-explorer.git
+  ```
+  Via SSH
+  ```bash
+  git@github.com:gabrielloppes/01-github-explorer.git
+  ```
+  Via GitHub CLI
+  ```bash
+  gh repo clone gabrielloppes/01-github-explorer
+  ```
+  
+* ### **Rodar o projeto**
+  Após isso, navegue até a pasta do projeto
+  ```bash
+  cd 01-github-explorer
+  ```
+  Após entrar na pasta do projeto, instale as dependências:
+
+  * Utilizando o NPM:
+    ```bash
+    npm install
+    ```
+  * Utilizando o Yarn:
+    ```bash
+    yarn install
+    ```
+<!-- ## **Layout**
+
+O layout está disponível no [Figma](figma.com) -->
 ## **Autor**
 
 <img width="100px" alt="Gabriel Avatar" src="https://avatars.githubusercontent.com/u/36803487?v=4" /><br/>
