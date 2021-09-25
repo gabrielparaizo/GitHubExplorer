@@ -54,15 +54,15 @@ GitHub Explorer é o primeiro projeto criado no Bootcamp Ignite da [Rocketseat](
   cd 01-github-explorer
   ```
   Após entrar na pasta do projeto, instale as dependências:
-
-  * Utilizando o NPM:
-    ```bash
-    npm install
-    ```
+  
   * Utilizando o Yarn:
     ```bash
     yarn install
     ```
+  Então, rode a aplicação:
+  ```bash
+  yarn dev
+  ```
 <!-- ## **Layout**
 
 O layout está disponível no [Figma](figma.com) -->
