@@ -1,8 +1,16 @@
-export function Counter(){
-  return(
+import { useState } from "react";
+
+export function Counter() {
+  const [counter, setCounter] = useState(0)
+
+  function increment(){
+    setCounter(counter + 1)
+  }
+
+  return (
     <>
-      <h2>0</h2>
-      <button type="button">Incrementar</button>
+      <h2>{counter}</h2>
+      <button type="button" onClick={increment}>Incrementar</button>
     </>
-  )
+  );
 }
